@@ -13,8 +13,5 @@ new Vue({
     numeroAleatorio: function () {
       return Math.random() * (1 - 0) + 0;
     },
-    inicializarNome (event) {
-        this.nome = event.target.value
-    }
   },
 });

@@ -12,6 +12,6 @@ new Vue({
     },
     numeroAleatorio: function () {
       return Math.random() * (1 - 0) + 0;
-    },
+    },exibirAlert
   },
 });
